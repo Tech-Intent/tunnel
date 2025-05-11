@@ -44,7 +44,7 @@ class DetailedCard {
   }
 
   createDetails() {
-    this.loader.load("/tunnel/fonts/Roboto_Regular.json", (font) => {
+    this.loader.load(import.meta.env.BASE_URL+"/fonts/Roboto_Regular.json", (font) => {
       const padding = 0.2;
       const fontSize = 0.1;
       this.title = wrapText(this.title, 50);
