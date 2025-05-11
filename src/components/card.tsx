@@ -37,7 +37,7 @@ class Card {
   }
 
   createCard() {
-    this.loader.load("/fonts/Roboto_Regular.json", (font) => {
+    this.loader.load("/tunnel/fonts/Roboto_Regular.json", (font) => {
       const padding = 0.3;
       // Title
       const titleGeometry = new TextGeometry(this.title, {

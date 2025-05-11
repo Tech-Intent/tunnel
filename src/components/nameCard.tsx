@@ -3,7 +3,7 @@ import { FontLoader, TextGeometry } from "three/examples/jsm/Addons.js";
 
 const createNameTitle = (scene: THREE.Scene) => {
   const loader = new FontLoader();
-  loader.load("/fonts/Roboto_Regular.json", (font) => {
+  loader.load("/tunnel/fonts/Roboto_Regular.json", (font) => {
     // Title
     const titleGeometry = new TextGeometry("NGUYEN VAN MAO", {
       font,
